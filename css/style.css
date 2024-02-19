@@ -1,0 +1,662 @@
+@import url('../fonts/stylesheet.css');
+@import url('../webfonts/iconsfont.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center;
+}
+/* HEADER CSS START  */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+header {
+    background-image: url('../images/Place1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-bg__images {
+    background-image: url('../images/Edit1.png'), url('../images/Ellipse.png'), url('../images/Vector2.png'), url('../images/Edit1.png'),
+    url('../images/Edit1.png'), url('../images/bluere.png'), url('../images/Vector.png'), url('../images/Vector1.png'),
+    url('../images/Edit1.png'),  url('../images/Vector.png'), url('../images/Vector1.png'), url('../images/Vector1.png'),
+    url('../images/Vector4.png'), url('../images/Vector3.png'), url('../images/red.png'), url('../images/Click.png'),
+    url('../images/Click.png'), url('../images/blue.png'), url('../images/VectorSmart.png'), url('../images/VectorSmart1.png');
+    background-position: -120px -157px, 120px 230px, 475px 176px, 230px 130px, 447px 154px, 40px 170px, 50px 548px, 1279px -38px,
+    1233px 300px, 1263px 700px, 600px 390px, 450px 670px, 618px 566px, 584px 640px, 160px 660px, 54px 404px, 1237px 96px,
+    485px 704px, 1220px 176px, 30px 784px;
+    background-repeat: no-repeat;
+}
+
+/* HEADER_MENU CSS START */
+.header-menu > ul {
+    padding-top: 54px;
+}
+.header-menu > ul > li > a > img {
+    width: 30px;
+}
+.header-menu > ul > li {
+    display: inline-block;
+    padding: 0 7px ;
+}
+.header-menu > ul > li:first-child {
+    padding-right: 650px;
+}
+.header-menu > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+/* HEADER_MENU CSS END */
+
+/* HEADER_MOBILE_MENU CSS START */
+.mobile-menu-block-item > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.fa-bars {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+.mobile-menu-block {
+    width: 0px;
+	position: fixed;
+	top: 0;
+	left: 74px;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.231);
+	transition: width 0.7s;
+	overflow: hidden;
+}
+.text-right {
+    text-align: right;
+}
+.mobile-menu-block label {
+	color: white;
+	cursor: pointer;
+}
+.mobile-menu-block-item {
+	color: white;
+	list-style: none;
+}
+#toggle-menu:checked + .mobile-menu-block {
+	width: 150px;
+	padding: 16px;
+}
+.header-mobile-menu {
+    display: none;
+}
+/* HEADER_MOBILE_MENU CSS END */
+.header-flex {
+    display: flex;
+    width: 100%;
+    padding: 320px 0 200px;
+    justify-content: space-between;
+}
+.header-flex-block1, .header-flex-block2 {
+    width: 50%;
+}
+.header-flex-block1 > h1 {
+    font-size: 57px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+.header-flex-block1 > p {
+    font-size: 71px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Monoton";
+    text-transform: uppercase;
+}
+.header-flex-block2 > h2 {
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: right;
+}
+.header-flex-block2 > span {
+    width: 161px;
+    height: 7px;
+    background-color: #ffffff;
+    display: block;
+    margin: 30px 0px 30px 424px;
+}
+.header-flex-block2 > p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: right;
+    padding-bottom: 55px;
+}
+.header-flex-block2 > a {
+    font-size: 25px;
+    color: #100667;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: right;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 9px 66.5px;
+    display: inline-block;
+    margin: 0 0 0 329px;
+}
+/* HEADER CSS END  */
+
+/* SECTION 1 CSS START  */
+
+.section1 {
+    background-color: #000001;
+    width: 100%;
+    padding-bottom: 120px;
+}
+.section1-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 18px solid white;
+    margin: 90px auto 20px;
+    display: inline-block;
+}
+.section1-text > h2 {
+    font-size: 29px;
+    color: #c0c0c0;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 40px;
+}
+.section1-text > p {
+    font-size: 19px;
+    line-height: 33px;
+    color: #d0d0d0;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 0 134px;
+}
+/* SECTION 1 CSS END  */
+
+/* SECTION 2 CSS START  */
+.section2 {
+    width: 100%;
+    background-color: #aa15b6;
+}
+.section2-flex {
+    display: flex;
+    padding: 83px 0;
+    justify-content: space-between;
+}
+.section2-block {
+    width: 30%;
+}
+.section2-block-text > h3 {
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 30px 0 40px;
+}
+.section2-block-text > p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+/* SECTION 2 CSS END  */
+
+/* SECTION 3 CSS START  */
+.section3 {
+    width: 100%;
+    background-color: #000001;
+}
+.section3 {
+    padding: 90px 0;
+}
+.section3-text > h3 {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 50px;
+}
+.section3-text > p {
+    font-size: 19px;
+    line-height: 33px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 0 137px;
+}
+.section3-flex {
+    width: 100%;
+    display: flex;
+    padding: 120px 0;
+    justify-content: space-between;
+}
+.section3-block {
+    width: 30%;
+    background-color: #aa15b6;
+    padding: 55px 0px 60px;
+}
+.section3-block > h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 0 0 0 60px;
+}
+.section3-block > p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 65px 114px 45px 60px;
+}
+.block-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.block-flex-img {
+    width: 30%;
+}
+.block-flex-text {
+    width: 40%;
+    align-self: center;
+}
+.block-flex-text > h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.block-flex-text > p {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+/* SECTION 3 CSS END  */
+
+/* SECTION 4 CSS START  */
+.section4 {
+    width: 100%;
+    background-image: url('../images/Group4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 168px 0;
+}
+/* SECTION 4 CSS END  */
+
+/* SECTION 5 CSS START  */
+.section5 {
+    width: 100%;
+    background-color: #000001;
+}
+.section5-text > h2 {
+    font-size: 29px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 80px 0 35px;
+}
+.section5-text > p {
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 0px 210px 50px;
+}
+.section5-text > span {
+    width: 162px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+}
+.section5-text > ul {
+    padding: 50px 0 64px;
+}
+.section5-text > ul > li {
+    display: inline-block;
+}
+.section5-text > ul > li > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 0px 20px 0 20px;
+}
+/* SECTION 5 CSS END  */
+
+/* SECTION 6 CSS START  */
+.section6 {
+    width: 100%;
+    background-image: url('../images/img1.png'), url('../images/img2.png');
+    background-position: top left, top right;
+    padding: 0 0 338px;
+    background-repeat: no-repeat;
+}
+/* SECTION 6 CSS END  */
+
+/* SECTION 7 CSS START  */
+.section7 {
+    width: 100%;
+    background-color: #000001;
+    padding-bottom: 110px;
+}
+.section7 > .container > span {
+    width: 162px;
+    height: 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 70px 0 75px;
+}
+.section7-text > span {
+    font-size: 83px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+.section7-text > p {
+    font-size: 19px;
+    line-height: 33px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 0 200px 50px;
+}
+.section7-text > h5 {
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+/* SECTION 7 CSS END  */
+
+/* SECTION 8 CSS START  */
+.section8 {
+    width: 100%;
+    background-image: url('../images/Group8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 332px 0;
+}
+/* SECTION 8 CSS END  */
+
+/* SECTION 9 CSS START  */
+.section9 {
+    width: 100%;
+    background-image: url('../images/img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section9-text {
+    padding: 170px 0 95px;
+}
+.section9-text > h3 {
+    font-size: 29px;
+    color: #fefefe;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+.section9-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 290px;
+}
+.section9-block {
+    width: 20%;
+}
+.section9-block p {
+    font-size: 13px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+.section9-block span {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Raleway";
+    padding: 30px 0 20px;
+    display: inline-block;
+}
+.section9-block h5 {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+/* SECTION 9 CSS END  */
+
+/* SECTION 10 CSS START  */
+.section10 {
+    width: 100%;
+    background-color: #000001;
+    padding: 110px 0 60px;
+}
+.section10-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section10-block__text {
+    width: 45%;
+    align-self: center;
+    padding-bottom: 50px;
+}
+.section10-block__text > p:first-child {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.section10-block__text > h5 {
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding: 15px 0 50px;
+}
+.section10-block__text > p:last-child {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 0 70px;
+}
+.section10-block__img {
+    width: 45%;
+    padding-bottom: 50px;
+}
+.section10-block__img > img {
+    display: block;
+    width: 100%;
+}
+.section10-img__one > img {
+    width: 60%;
+    display: block;
+}
+/* SECTION 10 CSS END  */
+
+/* SECTION 11 CSS START  */
+.section11 {
+    width: 100%;
+    background-color: #aa15b6;
+}
+.section11-flex {
+    display: flex;
+    width: 100%;
+    padding: 70px 0;
+    justify-content: space-between;
+}
+.section11-block1 {
+    width: 25%;
+}
+.section11-block {
+    display: flex;
+    width: 100%;
+}
+.section11-block__img > span {  
+    width: 7px;
+    height: 73px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.section11-block__text > p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    display: inline-block;
+}
+.section11-block__text > h5 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.section11-block__img {
+    width: 10%;
+}
+.section11-block__text {
+    width: 70%;
+    align-self: center;
+}
+/* SECTION 11 CSS END  */
+
+/* SECTION 12 CSS START  */
+.section12 {
+    width: 100%;
+    background-color: #000001;
+    padding: 50px 0;
+}
+.section12-text > h4 {
+    font-size: 83px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.section12-text > p {
+    font-size: 19px;
+    line-height: 33px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Raleway";
+    padding: 35px 206px 30px;
+}
+.section12-text > h3 {
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 40px;
+}
+.section12-icons > ul > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+/* SECTION 12 CSS END  */
+
+/* FOOTER CSS START  */
+footer {
+    width: 100%;
+    background-color: #aa15b6;
+}
+.footer-flex {
+    display: flex;
+    width: 100%;
+    padding: 65px 0 80px;
+    justify-content: space-between;
+}
+.footer-block__big {
+    width: 30%;
+}
+.footer-block__big > h2 {
+    font-size: 25px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 50px;
+}
+.footer-block__big > p {
+    font-size: 19px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+.footer-block {
+    width: 10%;
+}
+.footer-block > h4 {
+    font-size: 21px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 50px;
+}
+.footer-block > ul > li {
+    list-style: none;
+}
+.footer-block > ul > li > a {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 33px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.small > ul > li > a {
+    font-size: 21px;
+    line-height: 33px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+/* FOOTER CSS END  */
+
+/* HOVER CSS START  */
+
+.header-flex-block2 > a:hover {
+    color: black;
+    background-color: #aa15b6;
+    border-radius: 5px;
+}
+.header-menu > ul > li > a:hover, .mobile-menu-block-item > a:hover, .section5-text > ul > li > a:hover,
+.footer-block > ul > li > a:hover {
+    color: orange;
+}
+
+/* HOVER CSS END  */
